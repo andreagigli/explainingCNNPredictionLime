@@ -12,4 +12,6 @@ https://github.com/marcotcr/lime
 Notes: 
 
 * Please refer to project_NN/reportandpresentation.pdf for the installation instructions.
-* The project was written in November 2017 and has not been tested ever since. Uses Keras with Theano backend: adaptations are possibly required for Tensorflow (order of the image channels, for example).
+* The project was written in November 2017 and used standalone Keras with Theano backend. It has been recently ADAPTED to use TENSORFLOW KERAS (it does not need standalone Keras and Theano anymore). 
+* Due to this adaptation expect some non-optimal implementation. For example, in the function classify_neighbors.. (it definitely needs reworking)
+
